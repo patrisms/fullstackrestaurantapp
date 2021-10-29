@@ -6,10 +6,9 @@
     "node": "14.17.0"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js -p $PORT",
-    "heroku-postbuild": "next build"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@apollo/client": "^3.2.4",
