@@ -1,8 +1,6 @@
 import { gql, useQuery } from '@apollo/client';
 import Dishes from "./dishes"
 import { useContext, useState } from 'react';
-
-
 import AppContext from "./context"
 import {
   Button,
@@ -15,6 +13,8 @@ import {
   Row,
   Col
 } from "reactstrap";
+
+console.log('process.env.NEXT_PUBLIC_API_URL==>>>', process.env.NEXT_PUBLIC_API_URL)
 
 function RestaurantList(props) {
   const [restaurantID, setRestaurantID] = useState(0)
@@ -57,7 +57,7 @@ function RestaurantList(props) {
             top={true}
             style={{ height: 200 }}
             src={
-              `http://localhost:1337` + res.image.url
+              `${process.env.NEXT_PUBLIC_API_URL}${res.image.url}`
             }
           />
           <CardBody>
