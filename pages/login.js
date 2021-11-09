@@ -38,7 +38,7 @@ function Login(props) {
         <Col sm="12" md={{ size: 5, offset: 3 }}>
           <div className="paper">
             <div className="header">
-              <center><img src={`${process.env.NEXT_PUBLIC_API_URL}/uploads/d888a90dba294c87b8aca17f7e0cefc3.png`} alt="Foodie Stacked Logo" width="60" height="80" /></center>
+              <center><img src={`${process.env.NEXT_PUBLIC_API_URL}/uploads/5a5d18c6b3354f378024d12faa2d52df.png`} alt="Foodie Stacked Logo" width="60" height="80" /></center>
             </div>
             <section className="wrapper">
               {Object.entries(error).length !== 0 &&
