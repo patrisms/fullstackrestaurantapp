@@ -56,9 +56,7 @@ function RestaurantList(props) {
           <CardImg
             top={true}
             style={{ height: 200 }}
-            src={
-              `${process.env.NEXT_PUBLIC_API_URL}${res.image.url}`
-            }
+            src={res.image.url}
           />
           <CardBody>
             <CardTitle><b>{res.name}</b></CardTitle>

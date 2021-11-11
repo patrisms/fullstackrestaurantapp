@@ -26,7 +26,7 @@ const Register = () => {
         <Col sm="12" md={{ size: 5, offset: 3 }}>
           <div className="paper">
             <div className="header">
-            <center><img src={`${process.env.NEXT_PUBLIC_API_URL}/uploads/d7ada8f9f20c461190617a392d7b5503.png`} alt="Foodie Stacked Logo" width="60" height="80" /></center>
+            <center><img src={`https://res.cloudinary.com/dnwdxavgx/image/upload/v1636616006/Foodie_Logo_3b298f7d2c.png`} alt="Foodie Stacked Logo" width="60" height="80" /></center>
             </div>
             <section className="wrapper">
               {Object.entries(error).length !== 0 &&

@@ -38,7 +38,7 @@ const {user} = useContext(AppContext);
         <Nav className="navbar navbar-dark bg-warning">
           <NavItem>
             <Link href="/">
-              <a className="navbar-brand"><img src={`${process.env.NEXT_PUBLIC_API_URL}/uploads/a80a2366ae59445da39e5ca3a72717a2.png`} alt="Foodie-Logo" width="150" height="50"/>
+              <a className="navbar-brand"><img src={`https://res.cloudinary.com/dnwdxavgx/image/upload/v1636616006/Foodie_Logo_Long_02_fdb0aba8cc.png`} alt="Foodie-Logo" width="150" height="50"/>
               </a>
             </Link>
           </NavItem>
