@@ -55,7 +55,7 @@ const GET_RESTAURANT_DISHES = gql`
                 <CardImg
                   top={true}
                   style={{ height: 150, width:150 }}
-                  src={res.image.url}
+                  src={res.image?.url}
                 />
                 <CardBody>
                   <CardTitle><i>{res.name}</i></CardTitle>
